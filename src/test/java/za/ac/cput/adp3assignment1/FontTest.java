@@ -15,7 +15,7 @@ class FontTest {
 
     @Test
     public void objectIdentity()
-    //First Semester and Second Semester both different syllabus and exams
+  
     {
         assertNotEquals(type, type1);
     }
@@ -23,7 +23,7 @@ class FontTest {
     @Test
     public void object_quality()
     {
-        // First Semester and Second Semester both consist of six months so the assert is equal
+       
         assertEquals(type, type1);
     }
     @Test
